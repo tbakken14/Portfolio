@@ -1,6 +1,7 @@
 html {
-    height: 100%;
-    background: linear-gradient(to bottom, rgb(246, 91, 91), rgb(223, 223, 63))
+    min-height: 100%;
+    background: linear-gradient(to bottom, rgb(246, 91, 91), rgb(223, 223, 63)) no-repeat;
+    overflow: scroll;
 }
 
 body {
