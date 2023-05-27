@@ -7,10 +7,18 @@ body {
     text-align: center;
 }
 
+img {
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    border: 2px solid rgb(65, 212, 193);
+}
+
 .column {
     float: left;
     margin: 10vh 5vw;
-    width: 4035w;
+    width: 35vw;
 }
 
 .card {
