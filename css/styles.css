@@ -1,19 +1,24 @@
-body {
-    margin: 0px;
+html {
+    height: 100%;
     background: linear-gradient(to bottom, rgb(246, 91, 91), rgb(223, 223, 63))
+}
+
+body {
+    text-align: center;
 }
 
 .column {
     float: left;
     margin: 10vh 5vw;
-    width: 40vw;
+    width: 4035w;
 }
 
 .card {
+    background: white;
     float: left;
     height: 323.6px;
     width: 200px;
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 10%;
     padding: 5px;
     margin: 5px;
