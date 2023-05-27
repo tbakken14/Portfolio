@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    background: linear-gradient(to bottom, rgb(246, 91, 91), rgb(223, 223, 63))
+}
+
+.column {
+    float: left;
+    margin: 10vh 5vw;
+    width: 40vw;
+}
+
+.card {
+    float: left;
+    height: 323.6px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 5px;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+h3 {
+    font-size: 1em;
+}
