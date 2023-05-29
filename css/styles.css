@@ -8,12 +8,20 @@ body {
     text-align: center;
 }
 
+span {
+    text-align: left;
+    background-color: aquamarine;
+}
+
 img {
+    float:left;
     object-fit: cover;
-    height: 500px;
-    width: 500px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     border: 2px solid rgb(65, 212, 193);
+    padding: 2px;
+    margin: 10px;
 }
 
 .column {
