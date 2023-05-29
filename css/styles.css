@@ -40,3 +40,13 @@ h2 {
 h3 {
     font-size: 1em;
 }
+
+ol {
+    width: 200px;
+    text-align:left;
+}
+
+ul {
+    margin: 10px;
+    text-align:left;
+}
