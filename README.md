@@ -1,4 +1,4 @@
-# _Portfolio Landing Page
+# _Portfolio Landing Page_
 
 #### By _**Thomas Bakken**_
 
