@@ -18,11 +18,11 @@ _This web page is the landing page for my portfolio. Information contained on th
 * _Run a local or remote hosted server for this web page_
 * _Open the corresponding link in a web browser of your choosing_
 
-_This is a static web page relying on only html and css._
+_This is a static web page relying on only html and css. View with gh-pages at https://tbakken14.github.io/Portfolio/_
 
 ## Known Bugs
 
-* _Incomplete_
+* _Mobile viewing_
 
 ## License
 
