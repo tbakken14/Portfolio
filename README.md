@@ -22,11 +22,7 @@ _This is a static web page relying on only html and css. View with gh-pages at h
 
 ## Known Bugs
 
-<<<<<<< HEAD
 * _Mobile Viewing_
-=======
-* _Mobile viewing_
->>>>>>> 75e06d821202fb75deb18be1b902dcf491f47f2a
 
 ## License
 
