@@ -2,18 +2,10 @@ html {
     min-height: 100%;
     background: linear-gradient(to bottom, rgb(246, 91, 91), rgb(223, 223, 63)) no-repeat;
     overflow: none;
-}
-
-body {
     text-align: center;
 }
 
-span {
-    text-align: left;
-    background-color: aquamarine;
-}
-
-img {
+#personal-image {
     float:left;
     object-fit: cover;
     height: 150px;
@@ -21,28 +13,11 @@ img {
     border-radius: 50%;
     border: 2px solid rgb(33, 33, 33);
 }
-.container {
-    display: block;
-    width: 100vw;
-}
-.card {
-    display: inline-flex;
-    background: white;
-    font-size: 10px;
-    height: 300px;
-    width: 200px;
-    border: 3px solid black;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 5px;
-}
 
-h2 {
-    font-size: 1em;
-}
-
-h3 {
-    font-size: 1em;
+#logo-image {
+    height: 100px;
+    object-fit: contain;
+    margin: 10px;
 }
 
 .header {
@@ -51,6 +26,19 @@ h3 {
     font-size: 3em;
     font-weight: bold;
     margin: 10px;
+}
+
+.card {
+    background: white;
+    font-size: 10px;
+    height: 404px;
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+
+    justify-items: center;
 }
 
 #arrow {
@@ -70,7 +58,8 @@ h3 {
 }
 
 .container:focus-within .hidden {
-    display: inline-flex;
+    display: inline-grid;
+    grid-auto-rows: max-content;
 }
 
 .container:focus-within #arrow {
